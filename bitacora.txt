@@ -1,0 +1,90 @@
+clonar repositorio
+git clone https://github.com/moodlehq/moodleapp.git
+
+dentro de la carpeta moodleapp
+
+nvm use 11
+
+npm cache clean
+sudo npm install -g cordova@8.1.2 @ionic/cli
+
+sudo npm install -g gulp
+
+sudo npm install
+
+Linux only: libsecret
+In Moodle App 3.9.3 we'll include a new script to easily push diff URLs to Moodle Tracker (Jira): gulp push. One of the libraries used requires the libsecret library to be installed in Linux before running npm install. Depending on your distribution, you will need to run the following command:
+
+Debian/Ubuntu: sudo apt-get install libsecret-1-dev
+
+windows
+npm install --global --production windows-build-tools
+
+npm run setup
+
+ionic serve -b
+
+En el archivo /config.xml, cambiar:
+
+* <widget id="com.subitus.moodlemobileprueba"
+* <name>Moodle Prueba APP</name>
+* <description>App Moodle Prueba</description>
+
+/src/config.json, cambiar:
+
+"app_id": "com.subitus.moodlemobileprueba",
+"versionname": "3.9.0", // No modificar version original para que no de errores al cargarla en el play store
+"default_lang": "es-mx",
+quitar "demo-sites",
+"siteurl": "https://moodlepruebas.aprendiendo.org.mx/",
+
+"statusbarbgandroid": "#5d318e", //cambiar el colo de la barra de notificacion
+
+
+/src/theme/variables.scss cambiar los colores en:
+
+$orange:          #419873; // el color de la barra superior y de los textos e iconos
+$gray-dark:       #4f4d4d; // color de la barra inferior
+$black:           #3a3a3a; // Color de texto general
+
+
+
+
+linea 242: fuentes
+$font-family-md-base: "Roboto", "Noto Sans", "Helvetica Neue", sans-serif !default;
+
+modificar splash y login logo en:
+/src/assets/img
+
+/resources/ modificar:
+
+splash.png
+
+resources/android/ y/o resources/ios/
+modificar icon.png
+
+despues de modificar las imagenes, escribir en consola, dentro de la carpeta moodleapp:
+
+cordova-res android
+
+Para reconstruir la app con las modificaciones se utiliza:
+
+ionic build
+
+Para compilar la aplicacion en un ejectutable se utiliza (es necesario tener el sdk de android instalado) :
+
+cordova platform remove android
+cordova platform add android   o cordova platform add android@^9.0.0  (para el api 29 de android)
+
+
+ionic cordova run android
+
+Importar en andorid estudio:
+
+Elegir abrir un proyecto existente, elegir la carpeta platforms/android
+
+si hay problemas con el gradle cambiar la configuracion de gradle/wrapper/gradle-wrapper.properties:
+
+distributionUrl=https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+
+Al crear el apk o bundle (firmada) se debe elegir la opcion de exportar firma para google play
