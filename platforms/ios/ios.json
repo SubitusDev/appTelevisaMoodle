@@ -5,6 +5,154 @@
   },
   "config_munge": {
     "files": {
+      "*-Info.plist": {
+        "parents": {
+          "NSLocationWhenInUseUsageDescription": [
+            {
+              "xml": "<string>We need your location so you can attach it as part of your submissions.</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "NSLocationAlwaysUsageDescription": [
+            {
+              "xml": "<string>We need your location so you can attach it as part of your submissions.</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string>We need camera access to take pictures so you can attach them as part of your submissions.</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "NSMicrophoneUsageDescription": [
+            {
+              "xml": "<string>We need microphone access to record sounds so you can attach them as part of your submissions.</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "NSPhotoLibraryUsageDescription": [
+            {
+              "xml": "<string>We need photo library access to get pictures from there so you can attach them as part of your submissions.</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "UISupportsDocumentBrowser": [
+            {
+              "xml": "<true />",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "CFBundleShortVersionString": [
+            {
+              "xml": "<string>3.9.3</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ],
+          "FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED": [
+            {
+              "xml": "<string>YES</string>",
+              "count": 6
+            }
+          ],
+          "UISupportedInterfaceOrientations": [
+            {
+              "xml": "<array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>",
+              "count": 6
+            }
+          ],
+          "UISupportedInterfaceOrientations~ipad": [
+            {
+              "xml": "<array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>",
+              "count": 6
+            }
+          ],
+          "UIRequiresFullScreen": [
+            {
+              "xml": "<false />",
+              "count": 6
+            }
+          ],
+          "CFBundleDocumentTypes": [
+            {
+              "xml": "<array><dict><key>CFBundleTypeName</key><string>Unknown File</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.calendar-event</string><string>public.database</string><string>public.executable</string><string>public.data</string><string>public.content </string><string>public.item</string></array></dict><dict><key>CFBundleTypeName</key><string>Video</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.video</string></array></dict><dict><key>CFBundleTypeName</key><string>Image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.image</string></array></dict><dict><key>CFBundleTypeName</key><string>Web Archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.webarchive</string></array></dict><dict><key>CFBundleTypeName</key><string>iWork Keynote</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.keynote.key</string><string>com.apple.iwork.keynote.key</string><string>com.apple.iwork.keynote.kth</string></array></dict><dict><key>CFBundleTypeName</key><string>iWork Numbers</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.numbers.numbers</string><string>com.apple.iwork.numbers.numbers</string><string>com.apple.iwork.numbers.template</string></array></dict><dict><key>CFBundleTypeName</key><string>iWork Pages</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.apple.page.pages</string><string>com.apple.iwork.pages.pages</string><string>com.apple.iwork.pages.template</string></array></dict><dict><key>CFBundleTypeName</key><string>OpenDocument Spreadsheet</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.oasis.opendocument.spreadsheet</string></array></dict><dict><key>CFBundleTypeName</key><string>OpenDocument Presentation</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.oasis.opendocument.presentation</string></array></dict><dict><key>CFBundleTypeName</key><string>OpenDocument Text</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.oasis.opendocument.text</string></array></dict><dict><key>CFBundleTypeName</key><string>Folder</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.folder</string></array></dict><dict><key>CFBundleTypeName</key><string>Audio</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.audio</string><string>public.mp3</string><string>public.mpeg-4-audio</string><string>com.apple.protected-​mpeg-4-audio</string><string>public.aifc-audio</string><string>com.apple.coreaudio-​format</string><string>public.aiff-audio</string></array></dict><dict><key>CFBundleTypeName</key><string>Movie</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.movie</string><string>public.3gpp2</string><string>public.3gpp</string><string>public.mpeg</string><string>com.apple.quicktime-movie</string><string>public.mpeg-4</string></array></dict><dict><key>CFBundleTypeName</key><string>GIF image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.compuserve.gif</string></array></dict><dict><key>CFBundleTypeName</key><string>PNG image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.png</string></array></dict><dict><key>CFBundleTypeName</key><string>TIFF image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.tiff</string></array></dict><dict><key>CFBundleTypeName</key><string>JPEG image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.jpeg</string></array></dict><dict><key>CFBundleTypeName</key><string>XML</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.xml</string></array></dict><dict><key>CFBundleTypeName</key><string>HTML</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.html</string><string>public.xhtml</string></array></dict><dict><key>CFBundleTypeName</key><string>Rich Text</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.rtf</string><string>com.apple.rtfd</string><string>com.apple.flat-rtfd</string></array></dict><dict><key>CFBundleTypeName</key><string>Text</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.text</string><string>public.plain-text</string><string>public.utf8-plain-text</string><string>public.utf16-external-plain-​text</string><string>public.utf16-plain-text</string><string>com.apple.traditional-mac-​plain-text</string><string>public.source-code</string><string>public.c-source</string><string>public.objective-c-source</string><string>public.c-plus-plus-source</string><string>public.objective-c-plus-​plus-source</string><string>public.c-header</string><string>public.c-plus-plus-header</string><string>com.sun.java-source</string><string>public.script</string><string>public.shell-script</string></array></dict><dict><key>CFBundleTypeExtensions</key><array><string>zip</string><string>zipx</string></array><key>CFBundleTypeName</key><string>Zip archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>public.zip-archive</string><string>public.archive</string><string>com.pkware.zip-archive</string><string>com.pkware.zipx-archive</string></array></dict><dict><key>CFBundleTypeExtensions</key><array><string>rar</string><string>RAR</string></array><key>CFBundleTypeName</key><string>Rar archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.rarlab.rar-archive</string><string>public.archive</string></array></dict><dict><key>CFBundleTypeExtensions</key><array><string>7z</string><string>7Z</string></array><key>CFBundleTypeName</key><string>7z archive</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.7-zip.7-zip-archive</string><string>public.archive</string></array></dict><dict><key>CFBundleTypeName</key><string>Waveform audio</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.waveform-​audio</string></array></dict><dict><key>CFBundleTypeName</key><string>Windows icon image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.ico</string><string>com.apple.icns</string></array></dict><dict><key>CFBundleTypeName</key><string>Windows bitmap image</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.bmp</string></array></dict><dict><key>CFBundleTypeName</key><string>Microsoft PowerPoint</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.powerpoint.​ppt</string><string>org.openxmlformats.presentationml.presentation</string></array></dict><dict><key>CFBundleTypeName</key><string>Microsoft Excel</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>org.openxmlformats.spreadsheetml.sheet</string><string>com.microsoft.excel.xls</string></array></dict><dict><key>CFBundleTypeName</key><string>Microsoft Word</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.microsoft.word.doc</string><string>com.microsoft.word.wordml</string><string>org.openxmlformats.wordprocessingml.document</string></array></dict><dict><key>CFBundleTypeName</key><string>PDF</string><key>LSHandlerRank</key><string>Alternate</string><key>LSItemContentTypes</key><array><string>com.adobe.pdf</string></array></dict></array>",
+              "count": 6
+            }
+          ],
+          "CFBundleURLTypes": [
+            {
+              "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>moodlemobile</string></array></dict></array>",
+              "count": 1
+            }
+          ],
+          "NSLocationAlwaysAndWhenInUseUsageDescription": [
+            {
+              "xml": "<string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>",
+              "count": 1
+            }
+          ],
+          "NSBluetoothPeripheralUsageDescription": [
+            {
+              "xml": "<string>This app requires Bluetooth access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSBluetoothAlwaysUsageDescription": [
+            {
+              "xml": "<string>This app requires constant Bluetooth access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSContactsUsageDescription": [
+            {
+              "xml": "<string>This app requires contacts access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSCalendarsUsageDescription": [
+            {
+              "xml": "<string>This app requires calendar access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSRemindersUsageDescription": [
+            {
+              "xml": "<string>This app requires reminders access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "NSMotionUsageDescription": [
+            {
+              "xml": "<string>This app requires motion detection access to function properly.</string>",
+              "count": 1
+            }
+          ],
+          "UIBackgroundModes": [
+            {
+              "xml": "<array><string>audio</string></array>",
+              "count": 1
+            },
+            {
+              "xml": "<array><string>remote-notification</string></array>",
+              "count": 1
+            }
+          ]
+        }
+      },
       "config.xml": {
         "parents": {
           "/*": [
@@ -193,102 +341,6 @@
           ]
         }
       },
-      "*-Info.plist": {
-        "parents": {
-          "CFBundleURLTypes": [
-            {
-              "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>moodlemobile</string></array></dict></array>",
-              "count": 1
-            }
-          ],
-          "NSCameraUsageDescription": [
-            {
-              "xml": "<string>The camera is used to scan QR codes.</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string>This app requires camera access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSLocationWhenInUseUsageDescription": [
-            {
-              "xml": "<string>This app requires access to your location when the screen is on and the app is displayed.</string>",
-              "count": 1
-            }
-          ],
-          "NSLocationAlwaysAndWhenInUseUsageDescription": [
-            {
-              "xml": "<string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>",
-              "count": 1
-            }
-          ],
-          "NSLocationAlwaysUsageDescription": [
-            {
-              "xml": "<string>This app requires constant access to your location in order to track your position, even when the screen is off or the app is in the background.</string>",
-              "count": 1
-            }
-          ],
-          "NSBluetoothPeripheralUsageDescription": [
-            {
-              "xml": "<string>This app requires Bluetooth access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSBluetoothAlwaysUsageDescription": [
-            {
-              "xml": "<string>This app requires constant Bluetooth access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSPhotoLibraryUsageDescription": [
-            {
-              "xml": "<string>This app requires photo library access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSMicrophoneUsageDescription": [
-            {
-              "xml": "<string>This app requires microphone access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSContactsUsageDescription": [
-            {
-              "xml": "<string>This app requires contacts access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSCalendarsUsageDescription": [
-            {
-              "xml": "<string>This app requires calendar access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSRemindersUsageDescription": [
-            {
-              "xml": "<string>This app requires reminders access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "NSMotionUsageDescription": [
-            {
-              "xml": "<string>This app requires motion detection access to function properly.</string>",
-              "count": 1
-            }
-          ],
-          "UIBackgroundModes": [
-            {
-              "xml": "<array><string>audio</string></array>",
-              "count": 1
-            },
-            {
-              "xml": "<array><string>remote-notification</string></array>",
-              "count": 1
-            }
-          ]
-        }
-      },
       "*-Debug.plist": {
         "parents": {
           "aps-environment": [
@@ -313,118 +365,115 @@
   },
   "installed_plugins": {
     "com-darryncampbell-cordova-plugin-intent": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-android-support-gradle-release": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-clipboard": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-advanced-http": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-camera": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-chooser": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-customurlscheme": {
       "URL_SCHEME": "moodlemobile",
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-file-opener2": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-geolocation": {
       "GPS_REQUIRED": "false",
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-globalization": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-ionic-keyboard": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-media": {
       "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-qrscanner": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-screen-orientation": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-wkuserscript": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-wkwebview-cookies": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-plugin-zip": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-sqlite-storage": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova-support-google-services": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "cordova.plugins.diagnostic": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "es6-promise-plugin": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "nl.kingsquare.cordova.background-audio": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "phonegap-plugin-multidex": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     },
     "phonegap-plugin-push": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+      "PACKAGE_NAME": "com.seetjm.televisamoodle"
     }
   },
   "dependent_plugins": {},
@@ -1157,7 +1206,6 @@
     "cordova.plugins.diagnostic": "5.0.2",
     "es6-promise-plugin": "4.2.2",
     "nl.kingsquare.cordova.background-audio": "1.0.1",
-    "phonegap-plugin-multidex": "1.0.0",
     "phonegap-plugin-push": "2.2.3"
   }
 }

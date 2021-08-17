@@ -88,3 +88,53 @@ si hay problemas con el gradle cambiar la configuracion de gradle/wrapper/gradle
 distributionUrl=https://services.gradle.org/distributions/gradle-4.10.1-all.zip
 
 Al crear el apk o bundle (firmada) se debe elegir la opcion de exportar firma para google play
+
+
+
+=======
+=======
+=======
+=======
+
+Descargo el proyecto de git:
+https://github.com/desarrolloSubitus/appTelevisaMoodle
+
+cambio a versión 11 de node
+> n 11.15.0
+
+instalo las dependencias
+> npm install
+
+instalo la versión de cordova e ionic
+> npm install -g cordova@8.1.2 @ionic/cli
+
+checo que tenga instalado gulp
+> gulp -v
+CLI version: 2.3.0
+Local version: 4.0.2
+
+Configuro el proyecto
+> npm run setup
+
+No me dejó, entonces hago el siguiente comando
+> npm rebuild node-sass
+
+Tampoco me dejó, entonces quito ios platform
+> cordova platform remove ios
+
+> ionic cordova prepare ios
+
+Configuro el proyecto, de nuevo
+> npm run setup
+
+> npm i -g ionic@latest
+Ya funciona (:
+
+Corro el server de desarrollo de ionic (http://localhost:8100/)
+> ionic serve -b
+
+> ionic build
+
+> ionic cordova run ios
+
+abro el proyecto en xcode

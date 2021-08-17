@@ -728,7 +728,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova.plugins.diagnostic": "5.0.2",
     "es6-promise-plugin": "4.2.2",
     "nl.kingsquare.cordova.background-audio": "1.0.1",
-    "phonegap-plugin-multidex": "1.0.0",
     "phonegap-plugin-push": "2.2.3"
   };
 });
