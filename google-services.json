@@ -1,42 +1,43 @@
 {
   "project_info": {
-    "project_number": "",
-    "firebase_url": "",
-    "project_id": "",
-    "storage_bucket": ""
+    "project_number": "500531207251",
+    "project_id": "airnotifier-televisau",
+    "storage_bucket": "airnotifier-televisau.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:111111111111:android:1111111111111111",
+        "mobilesdk_app_id": "1:500531207251:android:66fbc6f1f4112f96087aa6",
         "android_client_info": {
-          "package_name": "com.moodle.moodlemobile"
+          "package_name": "com.seetjm.televisamoodle"
         }
       },
       "oauth_client": [
         {
-          "client_id": "",
+          "client_id": "500531207251-8od6i9jciufjqc8c8mtj8rmp2lnv5j6l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": ""
-        },
-        {
-          "current_key": ""
+          "current_key": "AIzaSyCZD_P5gp_38oaujfkQujhqLpY6zIrZMh0"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500531207251-8od6i9jciufjqc8c8mtj8rmp2lnv5j6l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500531207251-ko9lod3o5koc41qk5mjr5jhmqsj4e8jp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.seetjm.televisamoodle"
+              }
+            }
+          ]
         }
       }
     }
