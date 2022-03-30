@@ -27,12 +27,14 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+@import FirebaseCore;
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
     self.viewController = [[MainViewController alloc] init];
+    [FIRApp configure];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
