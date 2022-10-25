@@ -39,3 +39,5 @@ e2e/build
 !/desktop/electron.js
 src/configconstants.ts
 .moodleapp-dev-config
+
+/platforms/
